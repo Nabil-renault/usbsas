@@ -1,3 +1,5 @@
+use ssh2::Session;
+use std::io::prelude::*;
 use crate::{Error, HttpClient, Result};
 use log::{error, trace};
 use reqwest::blocking::Body;
